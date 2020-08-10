@@ -3,13 +3,13 @@ import Container from '../components/Container';
 
 export default function Home() {
   return (
-    <div>
+    <React.Fragment>
       <Container>
-        <section className='navbar-font hero is-medium'>
+        <section className='navbar-font hero'>
           <div className='hero-body'>
             <div className='container has-text-centered'>
-              <h1 className='title is-1 large-font has-text-white'>Karen Astell</h1>
-              <h2 className='subtitle is-3 med-font med-font bold has-text-white'>
+              <h1 className='title-text is-1 has-text-white'>Karen Astell</h1>
+              <h2 className='subtitle is-3 bold has-text-white'>
                 Full Stack Web Devleoper
               </h2>
             </div>
@@ -38,6 +38,6 @@ export default function Home() {
         </div>
         
       </Container>
-    </div>
+    </React.Fragment>
   );
 }

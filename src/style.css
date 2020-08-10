@@ -12,7 +12,8 @@
 }
 
 .hero-body {
-  margin: 150px;
+  margin: 75px;
+  padding: 50px;
 }
 
 
@@ -44,6 +45,11 @@
 
 .med-font {
   font-size: 24px;
+}
+
+.title-text {
+  font-size: 75px;
+  font-weight: bold;
 }
 
 .white-font {

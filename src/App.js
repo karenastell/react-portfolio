@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className='App'>
         <Wrapper>
-          <Navbar />
+          {/* <Navbar /> */}
           <Route exact path='/' component={Home} />
           <Route exact path='/portfolio' component={Portfolio} />
           <Footer />
