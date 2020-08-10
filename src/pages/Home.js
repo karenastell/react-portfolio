@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '../components/Container';
+import '../style.css'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         </section>
 
         <div className='container large-margin'>
-          <main className='has-text-white main-margin brand-statement'>
+          <main className='has-text-white font main-margin brand-statement'>
             My name is Karen Astell and I am excited to begin my journey as a
             full-stack web developer. I’ve earned a Bachelor of Science in Math
             Education and a Masters of Education, both from the University of

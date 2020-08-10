@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Recipe Box",
+    "description": "This full stack blog application allows a user to search recipes that have been inputted into the application, create their own recipes to share, view favorite recipes, and share recipes by email or social media.",
+    "image": "../images/recipe-box.png",
+    "alt": "recipe-box thumbnail",
+    "github": "https://github.com/Kaleighspurio/Project2-Recipe-Box",
+    "whereDeployed": "Heroku Deployed App",
+    "deployedLink": "https://fast-mountain-43531.herokuapp.com/index.html",
+    "builtWith": [
+      "HTML5",
+      "CSS",
+      "Bootstrap",
+      "jQuery",
+      "JavaScript",
+      "NodeJS",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Express-fileupload",
+      "Nodemailer"
+    ]
+  },
+  {
+    "title": "Booze and Brews",
+    "description": "This front end application allows a user to search for breweries by city/state and search for cocktail recipes by ingredient. Third party APIs were used for the cocktail and brewery information: GoogleMapsAPI, OpenBreweryDB, and CocktailDB",
+    "image": "../images/booze-brews.png",
+    "alt": "booze and brews thumbnail",
+    "github": "https://github.com/LynnBoudreau/ProjectOne",
+    "whereDeployed": "Deployed App",
+    "deployedLink": "https://lynnboudreau.github.io/ProjectOne/",
+    "builtWith": ["HTML5", "CSS", "Bulma", "jQuery", "JavaScript"]
+  },
+  {
+    "title": "Stupid State Laws Quiz",
+    "description": "TThis front end application is a quiz about the stupid random state laws in the US. The user starts the quiz by clicking the 'Start The Quiz' button. They then have multiple choice questions about the stupid laws in different states. Time is added or subtracted depending on the user answer. There is a high scores page which will save initials and scores after the game is complete.",
+    "image": "../images/code-quiz.png",
+    "alt": "stupid state laws thumbnail",
+    "github": "https://github.com/karenastell/codequiz/",
+    "whereDeployed": "Deployed App",
+    "deployedLink": "https://karenastell.github.io/codequiz/",
+    "builtWith": ["HTML5", "CSS", "Bootstrap", "jQuery", "JavaScript"]
+  },
+  {
+    "title": "Daily Scheduler",
+    "description": "This front end application allows a user to enter events into different time slots. When the user clicks the save button, the event(s) are stored into localStorage. The text areas will change to different colors depending on the current time, which is located at the top of the page. There is a clear schedule button on the bottom of the page that will allow the user to clear the local storage and refresh the page to it's default.",
+    "image": "../images/scheduler.png",
+    "alt": "scheduler thumbnail",
+    "github": "https://github.com/karenastell/scheduler/",
+    "whereDeployed": "Deployed App",
+    "deployedLink": "https://karenastell.github.io/scheduler/",
+    "builtWith": [
+      "HTML5",
+      "CSS",
+      "Bootstrap",
+      "jQuery",
+      "JavaScript",
+      "LocalStorage"
+    ]
+  },
+  {
+    "title": "Burger",
+    "description": "This front end allows the user to enter a burger they want to eat. After submitting the burger name, the burger is placed in the left hand column with a button next to it. After they have eaten the burger, they can click on the 'Eat-Da-Burger' button to move it to the right hand column. This signifies that it has been eaten.",
+    "image": "../images/burger.png",
+    "alt": "burger thumbnail",
+    "github": "https://github.com/karenastell/burger",
+    "whereDeployed": "Heroku Deployed App",
+    "deployedLink": "https://arcane-tor-21759.herokuapp.com/",
+    "builtWith": ["NodeJS", "Express", "Handlebars", "jQuery", "MySQL"]
+  },
+  {
+    "title": "Team Profile Generator",
+    "description": "This application allows the user to create a team through the command line that will then be displayed through the browser.",
+    "image": "../images/team-generator.png",
+    "alt": "team generator thumbnail",
+    "github": "hhttps://github.com/karenastell/team-profile-generator",
+    "whereDeployed": "Video of Working App",
+    "deployedLink": "https://drive.google.com/file/d/1cSEsNUK5wDgeHgtlzcjMSZDQAx0tv69_/view",
+    "builtWith": ["NodeJS", "Inquirer", "Classes", "jQuery", "JavaScript"]
+  }
+]
