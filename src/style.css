@@ -11,9 +11,10 @@
   height: 10000px;
 }
 
-body {
-  font-family: 'Oswald', sans-serif;
+.hero-body {
+  margin: 150px;
 }
+
 
 .container {
   min-height: 100%;
