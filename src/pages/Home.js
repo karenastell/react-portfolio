@@ -5,19 +5,19 @@ export default function Home() {
   return (
     <div>
       <Container>
-        <section class='navbar-font hero white-font is-medium'>
-          <div class='hero-body'>
-            <div class='container has-text-centered'>
-              <h1 class='title large-font white-font center bold'>Karen Astell</h1>
-              <h2 class='subtitle med-font med-font bold white-font center'>
+        <section className='navbar-font hero is-medium'>
+          <div className='hero-body'>
+            <div className='container has-text-centered'>
+              <h1 className='title is-1 large-font has-text-white'>Karen Astell</h1>
+              <h2 className='subtitle is-3 med-font med-font bold has-text-white'>
                 Full Stack Web Devleoper
               </h2>
             </div>
           </div>
         </section>
 
-        <div class='container large-margin'>
-          <main class='white-font font main-margin brand-statement'>
+        <div className='container large-margin'>
+          <main className='has-text-white main-margin brand-statement'>
             My name is Karen Astell and I am excited to begin my journey as a
             full-stack web developer. I’ve earned a Bachelor of Science in Math
             Education and a Masters of Education, both from the University of
@@ -36,6 +36,7 @@ export default function Home() {
             to beginning my new career in web development.
           </main>
         </div>
+        
       </Container>
     </div>
   );

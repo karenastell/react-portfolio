@@ -8,7 +8,7 @@
 
 .wrapper {
   background-image: url(./images/fence.jpg);
-  height: 10000px;
+  /* height: 10000px; */
 }
 
 .hero-body {
@@ -118,7 +118,7 @@
 }
 
 .large-margin {
-  margin-bottom: 150px !important;
+  padding-bottom: 150px;
 }
 
 .foot {
