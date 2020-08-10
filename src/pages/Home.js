@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Container from '../components/Container';
 
 export default function Home() {
-    return (
-        <div>
-            <p style={{color:'red'}}>Home page</p>
-        </div>
-    )
+  return (
+    <div>
+      <Container>
+
+      </Container>
+    </div>
+  );
 }

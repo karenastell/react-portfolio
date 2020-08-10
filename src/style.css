@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nothing+You+Could+Do&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;469;500;600;700&display=swap');
+
+.fence{
+  background-image: url(./images/fence.jpg);
+}
+
+.wrapper {
+  background-image: url(./images/fence.jpg);
+  height: 10000px;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  min-height: 100%;
+}
+
+.font {
+  font-family: 'Oswald', sans-serif;
+}
+
+.foot-font {
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar-font {
+  font-size: 24px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.nav-link-margin {
+  margin-right: 15px;
+}
+
+.large-font {
+  font-size: 55px;
+}
+
+.med-font {
+  font-size: 24px;
+}
+
+.white-font {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.main-margin {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.portfolio-image {
+  width: 400px;
+  border: 1px solid white;
+}
+
+.main-header {
+  margin-bottom: 150px !important;
+}
+
+.brand-statement {
+  text-align: justify;
+}
+
+.link-margin {
+  margin-top: 20px;
+}
+.port-list {
+  margin-top: 30px;
+}
+
+.ul-style {
+  list-style-type: circle;
+}
+
+.project-margin {
+  margin-left: 20px;
+}
+
+.column-margin {
+  margin-top: 40px;
+  border-top: 1px solid white;
+}
+
+.form-margin {
+  margin-top: 40px;
+  border: 1px solid white;
+  padding: 100px;
+}
+
+.nav-margin {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.large-margin {
+  margin-bottom: 150px !important;
+}
+
+.foot {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1a2a2d;
+}
