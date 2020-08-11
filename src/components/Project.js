@@ -1,16 +1,20 @@
 import React from 'react';
+import '../style.css'
 
 
 export default function Project(props) {
   console.log(props.projects);
   return (
-    <div >
+      
+    <div className='large-margin' >
+        
     {props.projects.map((project) => (
-        <div className='columns is-vcentered has-text-white'>
+        <div  className='columns column-margin is-vcentered has-text-white'>
           <div className='column center'>
             <a
               target='_blank'
               href={project.deployedLink}
+              
             >
               <img
                 className='portfolio-image'
@@ -48,21 +52,11 @@ export default function Project(props) {
                 <div className='columns'>
                   <div className='column'>
                     <ul className='ul-style bold'>
-                        {props.createBuiltList}
-                        {/* {project.builtWith.map((listItem)=>(
-                            <li>listItem</li>
-                        ))} */}
+                        {project.builtWith.map((listItem)=>(
+                            <li>{listItem}</li>
+                        ))}
                     </ul>
                   </div>
-                  {/* <div className='column'>
-                    <ul className='ul-style bold column'>
-                      <li>MySQL</li>
-                      <li>Sequelize</li>
-                      <li>Express</li>
-                      <li>Express-fileupload</li>
-                      <li>Nodemailer</li>
-                    </ul>
-                  </div> */}
                 </div>
               </div>
             </div>
