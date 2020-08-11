@@ -10,21 +10,16 @@ export default class Portfolio extends Component {
     projects: Projects,
   };
 
-  createBuiltList() {
-    alert('working?');
-  }
-
   render() {
     return (
       <div>
         <Container>
-          <h1 className='has-text-white font title is-1 center underline main-header'>
+          <h1 className='has-text-white font title is-1 center  main-header'>
             Projects
           </h1>
 
             <Project
               projects={this.state.projects}
-              createBuiltList={this.createBuiltList}
             />
 
         </Container>

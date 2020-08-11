@@ -9,7 +9,7 @@ export default function Project(props) {
     <div className='large-margin' >
         
     {props.projects.map((project) => (
-        <div  className='columns column-margin is-vcentered has-text-white'>
+        <div className='pt-5 pb-5 columns column-margin is-vcentered has-text-white'>
           <div className='column center'>
             <a
               target='_blank'
@@ -42,10 +42,10 @@ export default function Project(props) {
           <div className='column is-three-fifths project-margin'>
             <h1 className='title is-2 has-text-white font'>{project.title}</h1>
             <div className='has-text-white'>
-              <p className='light-font bold font'>
+              <p className='project-font bold font'>
             {project.description}
               </p>
-              <p className='port-list bold'>
+              <p className='project-font pb-5 port-list bold'>
                 This application was built using:
               </p>
               <div>
@@ -53,7 +53,7 @@ export default function Project(props) {
                   <div className='column'>
                     <ul className='ul-style bold'>
                         {project.builtWith.map((listItem)=>(
-                            <li>{listItem}</li>
+                            <li className='project-font'>{listItem}</li>
                         ))}
                     </ul>
                   </div>
