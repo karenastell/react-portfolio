@@ -18,7 +18,7 @@ export default function Project(props) {
             >
               <img
                 className='portfolio-image'
-                src={project.image}
+                src={require(`../images/${project.image}`)}
                 alt={project.alt}
               />
             </a>
