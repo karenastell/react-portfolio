@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin } from "react-icons/fa";  // Font Awesome
-import { FaGithub } from "react-icons/fa";  // Font Awesome
-import { FaFilePdf } from "react-icons/fa";  // Font Awesome
+import { FaLinkedin } from 'react-icons/fa'; // Font Awesome
+import { FaGithub } from 'react-icons/fa'; // Font Awesome
+import { FaFilePdf } from 'react-icons/fa'; // Font Awesome
 import Resume from '../files/KarenAstellResume.pdf';
 import '../style.css';
 
@@ -18,33 +18,41 @@ export default function Navbar() {
         <Link className='has-text-white navbar-item' to='/portfolio'>
           <span className=' navbar-font bold'>Portfolio</span>
         </Link>
-        
+
         <div className='navbar-end'>
           <span className='navbar-item'>
             <a
+              rel='noreferrer noopener'
               className='has-text-white bold nav-link-margin is-inverted'
               href='https://github.com/karenastell'
               target='_blank'
             >
-       
-
-              <span className='navbar-font'><FaGithub/>GitHub</span>
+              <span className='navbar-font'>
+                <FaGithub />
+                GitHub
+              </span>
             </a>
             <a
+              rel='noreferrer noopener'
               className='has-text-white bold nav-link-margin'
               target='_blank'
               href='https://www.linkedin.com/in/karen-astell/'
             >
-           
-              <span className='navbar-font'><FaLinkedin/>LinkedIn</span>
+              <span className='navbar-font'>
+                <FaLinkedin />
+                LinkedIn
+              </span>
             </a>
             <a
+              rel='noreferrer noopener'
               className='has-text-white bold is-inverted'
               href={Resume}
               target='_blank'
             >
-            
-              <span className='navbar-font'><FaFilePdf/>Resume</span>
+              <span className='navbar-font'>
+                <FaFilePdf />
+                Resume
+              </span>
             </a>
           </span>
         </div>
