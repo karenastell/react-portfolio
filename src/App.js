@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -13,8 +13,7 @@ function App() {
         <Wrapper>
           <Navbar />
           <Route exact path='/' component={Home} />
-          <Route exact path='/react-portfolio/home' component={Home} />
-          <Route exact path='/react-portfolio/' component={Home} />
+          <Route exact path='/home' component={Home} />
           <Route exact path='/portfolio/' component={Portfolio} />
           <Route
             exact
