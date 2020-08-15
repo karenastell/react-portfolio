@@ -3,7 +3,7 @@ import '../style.css';
 import Container from '../components/Container';
 import Project from '../components/Project';
 import Projects from '../components/Projects.json';
-import '../style.css'
+import '../style.css';
 
 export default class Portfolio extends Component {
   state = {
@@ -18,10 +18,10 @@ export default class Portfolio extends Component {
             Projects
           </h1>
 
-            <Project
-              projects={this.state.projects}
-            />
-
+          <Project
+            key={this.state.projects.name}
+            projects={this.state.projects}
+          />
         </Container>
       </div>
     );

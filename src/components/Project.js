@@ -8,7 +8,11 @@ export default function Project(props) {
       {props.projects.map((project) => (
         <div className='pt-5 pb-5 columns column-margin is-vcentered has-text-white'>
           <div className='column center'>
-            <a target='_blank' href={project.deployedLink}>
+            <a
+              target='_blank'
+              href={project.deployedLink}
+              rel='noreferrer noopener'
+            >
               <img
                 className='portfolio-image'
                 src={require(`../images/${project.image}`)}
@@ -16,14 +20,22 @@ export default function Project(props) {
               />
             </a>
             <div className='link-margin center'>
-              <a href={project.deployedLink} target='_blank'>
+              <a
+                href={project.deployedLink}
+                target='_blank'
+                rel='noreferrer noopener'
+              >
                 <span className='has-text-white font'>
                   {project.whereDeployed}
                 </span>
               </a>
             </div>
             <div className='center'>
-              <a href={project.github} target='_blank'>
+              <a
+                href={project.github}
+                target='_blank'
+                rel='noreferrer noopener'
+              >
                 <span className='has-text-white font'>GitHub Repository</span>
               </a>
             </div>
@@ -40,7 +52,7 @@ export default function Project(props) {
                   <div className='column'>
                     <ul className='ul-style bold'>
                       {project.builtWith.map((listItem) => (
-                        <li key={Math.random()} className='project-font'>{listItem}</li>
+                        <li className='project-font'>{listItem}</li>
                       ))}
                     </ul>
                   </div>
