@@ -10,6 +10,13 @@ This profile was built with:
 * CSS
 * Bulma
 
+## Visual of Application
+
+![profile](./src/images/profile.png)
+
+### Projects
+![projects](src/images/projects.png)
+
 ## Where to Find My Profile
 
 * [GitHub](https://github.com/karenastell/react-portfolio)
