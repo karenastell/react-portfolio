@@ -29,7 +29,7 @@ export default function Home() {
             collaborating with others. I have completed a full-stack web
             development certificate program through UNH’s Coding Bootcamp.
             During this course, I developed my skills in HTML, CSS, JavaScript,
-            jQuery, and Node.js as well as focusing on creating responsive web
+            jQuery, Node.js, React.js, MySQL, and MongoDB as well as focusing on creating responsive web
             applications. Employers often acknowledge my problem-solving skills
             and a strong work ethic which lends itself to working in web
             development teams or individual projects. I am eager to create web
