@@ -1,5 +1,26 @@
 [
   {
+    "title": "Learning Link",
+    "description": "This full stack application is meant to make it easy for students and their parents to find a tutor to help support their learning.  There are two user roles, student and tutor.  Students can search for tutors that meet their needs, add them to their dashboard, send messages through the app and, and schedule tutoring sessions through the calendar.  To test the application as a tutor, you may sign-in as bob@email.com with password: bob.  To test the application as a student, you may sign-in as ben@email.com with password: ben.",
+    "image": "learning-link.png",
+    "alt": "learning link thumbnail",
+    "github": "https://github.com/karenastell/learning-link",
+    "whereDeployed": "Heroku Deployed App",
+    "deployedLink": "https://ancient-brushlands-96177.herokuapp.com/",
+    "builtWith": [
+      "React",
+      "Bulma",
+      "JavaScript",
+      "NodeJS",
+      "MySQL",
+      "Sequelize",
+      "Express",
+      "Socket.io",
+      "FullCalendar.io",
+      "Passport"
+    ]
+  },
+  {
     "title": "Recipe Box",
     "description": "This full stack blog application allows a user to search recipes that have been inputted into the application, create their own recipes to share, view favorite recipes, and share recipes by email or social media.",
     "image": "recipe-box.png",
@@ -30,16 +51,6 @@
     "whereDeployed": "Deployed App",
     "deployedLink": "https://lynnboudreau.github.io/ProjectOne/",
     "builtWith": ["HTML5", "CSS", "Bulma", "jQuery", "JavaScript"]
-  },
-  {
-    "title": "Stupid State Laws Quiz",
-    "description": "TThis front end application is a quiz about the stupid random state laws in the US. The user starts the quiz by clicking the 'Start The Quiz' button. They then have multiple choice questions about the stupid laws in different states. Time is added or subtracted depending on the user answer. There is a high scores page which will save initials and scores after the game is complete.",
-    "image": "code-quiz.png",
-    "alt": "stupid state laws thumbnail",
-    "github": "https://github.com/karenastell/codequiz/",
-    "whereDeployed": "Deployed App",
-    "deployedLink": "https://karenastell.github.io/codequiz/",
-    "builtWith": ["HTML5", "CSS", "Bootstrap", "jQuery", "JavaScript"]
   },
   {
     "title": "Daily Scheduler",
@@ -77,5 +88,15 @@
     "whereDeployed": "Video of Working App",
     "deployedLink": "https://drive.google.com/file/d/1cSEsNUK5wDgeHgtlzcjMSZDQAx0tv69_/view",
     "builtWith": ["NodeJS", "Inquirer", "Classes", "jQuery", "JavaScript"]
+  },
+  {
+    "title": "Stupid State Laws Quiz",
+    "description": "TThis front end application is a quiz about the stupid random state laws in the US. The user starts the quiz by clicking the 'Start The Quiz' button. They then have multiple choice questions about the stupid laws in different states. Time is added or subtracted depending on the user answer. There is a high scores page which will save initials and scores after the game is complete.",
+    "image": "code-quiz.png",
+    "alt": "stupid state laws thumbnail",
+    "github": "https://github.com/karenastell/codequiz/",
+    "whereDeployed": "Deployed App",
+    "deployedLink": "https://karenastell.github.io/codequiz/",
+    "builtWith": ["HTML5", "CSS", "Bootstrap", "jQuery", "JavaScript"]
   }
 ]
