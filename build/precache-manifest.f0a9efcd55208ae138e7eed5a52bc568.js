@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22e6df3e436030fa492ed9bf94a57be2",
+    "revision": "854899c5be621149accb9951c8711f22",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "2a789c2e739e4771216a",
+    "revision": "4dbb2518915b6e30c7c6",
     "url": "/react-portfolio/static/css/2.0c0672e5.chunk.css"
   },
   {
-    "revision": "47e6e95e1ee9f1aa6eac",
+    "revision": "7c6b0ec446a62c9edd51",
     "url": "/react-portfolio/static/css/main.b9c43c68.chunk.css"
   },
   {
-    "revision": "2a789c2e739e4771216a",
-    "url": "/react-portfolio/static/js/2.4503cd76.chunk.js"
+    "revision": "4dbb2518915b6e30c7c6",
+    "url": "/react-portfolio/static/js/2.abf9281f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/react-portfolio/static/js/2.4503cd76.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.abf9281f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "47e6e95e1ee9f1aa6eac",
-    "url": "/react-portfolio/static/js/main.6da2997a.chunk.js"
+    "revision": "7c6b0ec446a62c9edd51",
+    "url": "/react-portfolio/static/js/main.1f5ea49c.chunk.js"
   },
   {
     "revision": "73a871a578ef5a2aeb49",
     "url": "/react-portfolio/static/js/runtime-main.1d992053.js"
   },
   {
-    "revision": "a5a8255c1989be9a2b77aacb6ff39a3f",
-    "url": "/react-portfolio/static/media/KarenAstellResume.a5a8255c.pdf"
+    "revision": "6ca1058b33024b36e771b546c8def23c",
+    "url": "/react-portfolio/static/media/KarenAstellResume.6ca1058b.pdf"
   },
   {
     "revision": "f51db4ef37ddb278e8fda7c5cde08f60",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "474bc5d33b3cc1b2e008818c5c2e3e46",
     "url": "/react-portfolio/static/media/jquery.474bc5d3.png"
+  },
+  {
+    "revision": "afd533e6ababbc6866687b6d87c4fc2f",
+    "url": "/react-portfolio/static/media/learning-link.afd533e6.png"
   },
   {
     "revision": "af0dad0aff317476578e26326f7e565a",
